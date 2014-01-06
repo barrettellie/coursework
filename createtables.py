@@ -11,7 +11,7 @@ def create_table(db_name, table_name,sql):
             #turn on foriegn keys
             cursor.execute("PRAGMA foreign_keys = ON")
             cursor.execute(sql)
-            db.commit()
+            db.commit()#theChoice
         else:
             pass
 
